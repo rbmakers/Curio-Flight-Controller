@@ -582,4 +582,4 @@ MIT License。韌體架構源自 [dRehmFlight](https://github.com/nickrehm/dRehm
 
 ---
 
-*Developed by Rocketbird Maker Warehouse（火箭鳥創客倉庫）.*
+*Developed by RocketBird Makers' Depot（火箭鳥創客倉庫）.*
