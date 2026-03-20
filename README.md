@@ -377,7 +377,7 @@ Curio-FlightController/
 
 ### 單核版本 vs. 雙核版本架構對比
 
-RP2354A 相較於 Crazyflie 所採用 STM32F405 最重要的架構優勢之一，在於其**兩顆獨立的 Cortex-M33 核心**。本倉庫提供兩套完整韌體，讓此優勢不僅可以被理解，更可以被**量化基準測試**：
+RP2354A 相較於 Crazyflie 所採用 STM32F405 最重要的架構優勢之一，在於其**兩顆獨立的 Cortex-M33 核心**。提供兩套完整韌體，讓此優勢不僅可以被理解，更可以被**量化基準測試**：
 
 | | `Curio_FlightController`（單核） | `Curio_FlightController_DualCore`（雙核） |
 |---|---|---|
