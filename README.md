@@ -12,7 +12,7 @@
 
 The rapid proliferation of unmanned aerial vehicles — from agricultural inspection and disaster relief to the asymmetric battlefield tactics prominently demonstrated in recent conflicts — has made UAV software and hardware literacy an increasingly critical engineering competency. Taiwan possesses world-class semiconductor and electronics manufacturing capabilities, yet its university-level UAV education ecosystem remains underdeveloped: most courses stop at theory, and students rarely encounter a platform that takes them in one continuous journey from bare-metal circuit bring-up, through firmware development, to closed-loop flight validation.
 
-**Curio** was designed to close that gap. It is an open-source, education-first quadcopter flight controller built around the Raspberry Pi **RP2354A** microcontroller (dual Cortex-M33, 150 MHz), developed by Rocket Bird Makers' Depot (火箭鳥創客倉庫).
+**Curio** was designed to close that gap. It is an open-source, education-first quadcopter flight controller built around the Raspberry Pi **RP2354A** microcontroller (dual Cortex-M33, 150 MHz).
 
 ### Why Curio? — Lessons from Existing Platforms
 
@@ -301,7 +301,7 @@ MIT License. Firmware architecture based on [dRehmFlight](https://github.com/nic
 
 無人載具（UAV）技術的快速演進，從農業巡檢、災害救援到近年衝突中低成本商用無人機所展現的不對稱戰力，已使無人機軟硬體開發能力成為關鍵工程素養。台灣擁有世界頂尖的半導體與電子製造基礎，然而大學層級的無人機教育生態卻相對薄弱：多數課程停留於理論，鮮少有平台能讓學生從底層電路設計、韌體開發，一路貫通至閉迴路飛行驗證。
 
-**Curio** 正是為填補這個缺口而生。它是一款以教育為核心、完全開源的四旋翼飛行控制板，核心採用 Raspberry Pi **RP2354A** 微控制器（雙核 Cortex-M33，150 MHz），火箭鳥創客倉庫開發。
+**Curio** 是一款以教育為核心、開源的四旋翼飛行控制板，核心採用 Raspberry Pi **RP2354A** 微控制器（雙核 Cortex-M33，150 MHz）。
 
 ### 為什麼是 Curio？——從現有平台汲取的設計教訓
 
