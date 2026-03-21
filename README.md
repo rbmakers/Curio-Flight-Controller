@@ -313,7 +313,7 @@ MIT License. Firmware architecture based on [dRehmFlight](https://github.com/nic
 
 **Scout**（MicroPython on RP2040）印證了 Raspberry Pi Silicon 在飛控場景的算力潛力，但 MicroPython 的即時性先天劣勢，使其難以作為生產級飛控的開發基底。
 
-**Curio 繼承了 dRehmFlight 的演算法透明度哲學**——韌體架構完全對應，每個迴圈、每個方程式均可直接閱讀——**同時以專用整合飛控板的形式消除通用板外掛的機體工程門檻**，讓「開電源、實習演算法、調校及觀察飛行響應」成為學習的起點，而非終點。
+**Curio 繼承了 dRehmFlight 的清楚易解**——韌體架構完全對應，每個迴圈、每個方程式均可直接閱讀——**同時以專用整合飛控板的形式消除通用板外掛的機體工程門檻**，讓「開電源、實習演算法、調校及觀察飛行響應」成為學習的起點，而非終點。
 
 ### RP2354A 的架構優勢
 
