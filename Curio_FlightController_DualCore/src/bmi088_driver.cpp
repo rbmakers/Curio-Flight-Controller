@@ -1,6 +1,6 @@
 // ================================================================
 //  bmi088_driver.cpp  — BMI088 SPI Interrupt-Driven Driver
-//  RB-RP2354A Flight Controller
+//  RB-RP2354A Flight Controller , 開發 : 火箭鳥創客倉庫
 //
 //  MODIFICATION LOG (vs. original bmi088_driver.cpp)
 //  ---------------------------------------------------
