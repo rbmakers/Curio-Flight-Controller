@@ -1,8 +1,8 @@
 // ================================================================
 //  RB-RP2354A Flight Controller
 //  Inspired by dRehmFlight (Nicholas Rehm, Beta 1.3)
-//  Adapted for RB-RP2354A by CS / CYCU EE Dept.
-//
+//  Adapted for RB-RP2354A by C. S. Yang (火箭鳥創客倉庫)
+//  
 //  Microcontroller : Raspberry Pi RP2354A  (Cortex-M33 dual-core, 150 MHz)
 //  IMU             : Bosch BMI088           (SPI, 2 kHz interrupt-driven)
 //  Barometer       : Bosch BMP580           (I²C, 50 Hz)
