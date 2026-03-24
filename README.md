@@ -317,8 +317,6 @@ MIT License. Firmware architecture based on [dRehmFlight](https://github.com/nic
 
 ### RP2354A 的架構優勢
 
-Curio 選擇 RP2354A，是架構層面的刻意選擇，而非偶然：
-
 | 規格項目 | STM32F405（Crazyflie） | RP2354A（Curio） |
 |---|---|---|
 | 處理器核心 | 單核 Cortex-M4 @ 168 MHz | 雙核 Cortex-M33 @ 150 MHz |
