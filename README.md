@@ -309,7 +309,7 @@ MIT License. Firmware architecture based on [dRehmFlight](https://github.com/nic
 
 **Crazyflie**（Bitcraze）是學術界最受推崇的微型無人機研究平台。其雙 MCU 架構——STM32F405 負責飛控運算、nRF51822 負責通訊——搭配自主研發的 CRTP 多工通訊協定，催生了一系列里程碑成果：Crazyswarm 系統以單台電腦同步控制 49 架飛行器、SE(3) 幾何控制器的實踐、僅需 18 秒的 Sim-to-Real 強化學習遷移，以及板載 MPC 求解器。然而這些成就，是在 STM32F405 192 KB SRAM 與單核 Cortex-M4 的算力限制下取得的，其代價是板載推理記憶體始終捉襟見肘、確定性控制時序受 FreeRTOS 任務切換干擾。對以學習飛控邏輯為目標的學生而言，nRF51822 與 CRTP 所形成的抽象層，在理解控制程式碼之前，已形成了一道不必要的障礙。
 
-**dRehmFlight**（Nicholas Rehm，Teensy 4.1）採取截然相反的哲學：將完整的多旋翼與 VTOL 飛控邏輯濃縮在單一 Arduino 程式檔案中，PID 增益、感測器融合、電機指令 都清楚流暢, 容易理解。其限制在於 Teensy 是通用開發板——學習者在開始任何調較參數之前，必須先自行搭接 IMU、氣壓計與接收機模組，大量時間耗費在配線、重量管控與機體整合，而非飛控演算法本身。
+**dRehmFlight**（Nicholas Rehm，Teensy 4.1）採取簡潔的哲學：將完整的飛控邏輯濃縮在單一 Arduino 程式檔案中，PID 增益、感測器融合、電機指令 都清楚流暢, 容易理解。其限制在於 Teensy 是通用開發板——學習者在開始任何調較參數之前，必須先自行搭接 IMU、氣壓計與接收機模組，大量時間耗費在配線、重量管控與機體整合，而非飛控演算法本身。
 
 **Scout**（MicroPython on RP2040）印證了 Raspberry Pi Silicon 在飛控場景的算力潛力，但 MicroPython 的即時性先天劣勢，使其難以作為生產級飛控的開發基底。
 
