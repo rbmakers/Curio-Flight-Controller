@@ -1,7 +1,7 @@
 // ================================================================
 //  Curio Flight Controller — DUAL-CORE VERSION
 //  RB-RP2354A Board  |  RP2354A (dual Cortex-M33, 150 MHz)
-//
+//  開發 : 火箭鳥創客倉庫
 //  ARCHITECTURE
 //  ─────────────────────────────────────────────────────────────
 //  SINGLE-CORE version (Curio_FlightController.ino):
