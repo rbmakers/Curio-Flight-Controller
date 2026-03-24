@@ -1,7 +1,7 @@
 // ================================================================
 //  test_IMU.ino — BMI088 Sensor Verification & Calibration Tool
 //  RB-RP2354A Flight Controller Board
-//
+//  開發 : 火箭鳥創客倉庫
 //  Purpose:
 //    1. Verify BMI088 chip IDs over SPI
 //    2. Collect static bias (IMU calibration)
