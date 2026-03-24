@@ -1,3 +1,5 @@
+//  RB-RP2354A Flight Controller , 開發 : 火箭鳥創客倉庫
+
 #include "bmp580_driver.h"
 #include "../config.h"
 #include <Wire.h>
