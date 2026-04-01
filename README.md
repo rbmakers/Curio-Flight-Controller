@@ -1,8 +1,9 @@
 # Curio Flight Controller
 
 > **Language / 語言**: [English](#english) | [繁體中文](#繁體中文)
-<img width="344" height="375" alt="image" src="https://github.com/user-attachments/assets/a8740bb8-b2b7-4ee0-9ca5-730cdb8b886c" />
-<img width="344" height="375" alt="image" src="https://github.com/user-attachments/assets/4f5720d4-72e2-41fc-ab33-529ab9cd1152" />
+<img width="262" height="296" alt="image" src="https://github.com/user-attachments/assets/f556dabd-0318-40a0-b1c1-6455ae3dd3e7" />
+<img width="262" height="296" alt="image" src="https://github.com/user-attachments/assets/81e22d9b-bda6-4404-9ff9-161a5a6a3a9e" />
+
 
 ---
 
